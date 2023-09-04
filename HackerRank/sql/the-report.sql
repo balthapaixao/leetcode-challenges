@@ -11,4 +11,5 @@ INNER JOIN grades AS g
     ON s.marks BETWEEN g.min_mark AND g.max_mark 
 ORDER BY 
     g.grade DESC
-    , name ASC;
+    , name ASC
+    , marks ASC;
